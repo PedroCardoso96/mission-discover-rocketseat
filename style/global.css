@@ -12,7 +12,7 @@ html{
     --white: #FAFAFA;
     --red: #e83f5b;
     --light-blue: #E0ECFF;
-    --blue: #3485FF;
+    --grey: #232220;
     --background: #f6faff;
     --overlay: #040911;
     --icon-details: #a5b0c1;
@@ -30,6 +30,7 @@ html{
 
 
 body{
+    display: flex;
     height: 100vh;
     background-image: url(/assets/new-world-icon-bg.jpg);
     background-repeat: repeat;
@@ -83,7 +84,7 @@ button, .button{
     align-items: center;
     justify-content: center;
 
-    background: var(--blue);
+    background: var(--grey);
     color: var(--white);
     
     transition: filter .2s;
@@ -105,8 +106,8 @@ button > img,
 button.outlined,
 .button.outlined{
     background: var(--white);
-    color: var(--blue);
-    border: .2rem solid var(--blue);
+    color: var(--grey);
+    border: .2rem solid var(--grey);
 }
 
 
