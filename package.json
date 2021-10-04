@@ -1,0 +1,27 @@
+{
+  "name": "mission-discover-rocketseat",
+  "version": "1.0.0",
+  "description": "Exercício Dicover Rocketseat",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroCardoso96/mission-discover-rocketseat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroCardoso96/mission-discover-rocketseat/issues"
+  },
+  "homepage": "https://github.com/PedroCardoso96/mission-discover-rocketseat#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
