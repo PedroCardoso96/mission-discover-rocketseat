@@ -3,6 +3,6 @@ const { open } = require("sqlite")
 
 module.exports = () => 
     open({
-        filename: './src/bd/rocketq.sqlite',
+        filename: './src/db/rocketq.sqlite',
         driver: sqlite3.Database,
     })
