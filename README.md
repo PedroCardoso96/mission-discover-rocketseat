@@ -2,6 +2,8 @@
 
 Exercício Dicover Rocketseat
 
+Site de criação de salas com perguntas e respostas.
+
 ![image](https://user-images.githubusercontent.com/50971161/165967131-1d7d4636-4231-4236-a4a8-2f9a7cfbcd42.png)
 
 
